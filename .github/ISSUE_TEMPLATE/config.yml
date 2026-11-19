@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://usewrit.app/docs/
+    about: Build an API from a website, call it, connect an AI assistant, run Writ Desktop.
+  - name: Account, plan and credits
+    url: https://usewrit.app/contact/
+    about: Anything about your Writ account goes to Writ support, not to an issue.
+  - name: Report a security vulnerability
+    url: https://usewrit.app/security/
+    about: Report privately (security@usewrit.app or the repository's Security tab). Never in a public issue.

@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in this repository is broken or behaves unexpectedly.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Never paste an API key, a token or a password**, and redact logs
+        before you post them. Security issues go to security@usewrit.app instead.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The package, plugin or app version you used.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, runtime version (Node, Python, Go, Rust) and AI client if relevant.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Redacted. They are rendered as code.
+      render: text
