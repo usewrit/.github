@@ -21,7 +21,7 @@ Writ is a cloud service first:
 
 ## Repositories
 
-| | |
+| Repository | What it is |
 |---|---|
 | **[writ-desktop](https://github.com/usewrit/writ-desktop)** | Writ Desktop downloads and issue tracker. The app itself is proprietary. |
 | **[writ-plugins](https://github.com/usewrit/writ-plugins)** | The Writ plugin for Claude, Codex, Cursor, Gemini CLI and GitHub Copilot: the Writ Cloud MCP server plus skills. |
